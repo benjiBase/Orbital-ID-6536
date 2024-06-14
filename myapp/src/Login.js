@@ -25,9 +25,7 @@ export default function Login({setAut}) {
                     email, password
                 })
             })
-            
             const parseRes = await response.json();
-
             //console.log(parseRes);
             localStorage.setItem("token", parseRes.token);
             setAut(true);

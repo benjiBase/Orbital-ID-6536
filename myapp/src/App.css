@@ -8,6 +8,16 @@
 
 }
 
+a {
+  text-decoration: none;
+  color: #1ca9c9;
+}
+
+#start {      
+  font-size: 20px;
+  cursor: pointer;
+}
+
 #right {
   padding: 8px;
   border-radius: 8px;

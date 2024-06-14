@@ -28,7 +28,8 @@ export default function Register({setAut}) {
             const parseRes = await response.json();
             // console.log(parseRes);
             localStorage.setItem("token", parseRes.token);
-
+            
+            //remove this for instant login
             setAut(true);
             
 
