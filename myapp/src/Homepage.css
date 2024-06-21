@@ -7,13 +7,17 @@ h1 {
 
 .container {
     display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 .sidebar {
+    padding-top: 100px;
     width: 25%;
 }
 
 .content {
     width: 75%;
     padding: 20px;
+    text-align: left;
 }
